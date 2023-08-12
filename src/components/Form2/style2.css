@@ -1,0 +1,190 @@
+.formBox {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  scale: 0.95;
+  margin-top: 40px;
+}
+.top1 {
+  display: flex;
+  justify-content: space-around;
+  width: 420px;
+}
+.top2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+.circB {
+  background: #3b62ff;
+  padding: 10px;
+  padding-left: 17px;
+  padding-right: 17px;
+  color: white;
+  margin: 10px;
+  border-radius: 1000px;
+  font-weight: bolder;
+  font-size: large;
+}
+.text2 {
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.dataBars {
+  position: relative;
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid rgb(161, 161, 161);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: large;
+  padding: 4px;
+}
+.dataBarsDisabled {
+  position: relative;
+  width: 400px;
+  border-radius: 10px;
+  
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: large;
+  padding: 4px;
+  background: #e1dfdf;
+  color: #a09f9f;
+}
+.dataBarsGreen {
+  position: relative;
+  width: 400px;
+  border-radius: 10px;
+  border: 2px solid rgb(42, 201, 69);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: large;
+  padding: 4px;
+  background: #69ff7a35;
+}
+.dataBarsOrange {
+  position: relative;
+  color: rgb(255, 85, 0);;
+  width: 400px;
+  border-radius: 10px;
+  border: 2px solid rgb(255, 85, 0);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: large;
+  padding: 4px;
+  background: #ffad6935;
+  justify-content: space-between;
+}
+.dataBars2 {
+  width: 400px;
+
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: large;
+  padding: 4px;
+}
+.line {
+  width: 400px;
+  height: 1px;
+  border-radius: 200px;
+  background: #b7b7b7;
+}
+
+.textLg {
+  font-size: x-large;
+  font-weight: bold;
+}
+.textSm {
+  font-size: medium;
+}
+.boldTx {
+  font-weight: bold;
+}
+.redBtn {
+  background: #ffffff;
+  border: 2px solid red;
+
+  border-radius: 5px;
+  color: red;
+  width: 195px;
+  height: 40px;
+  padding: 8px;
+}
+.greenBtn {
+  background: #2e9f4c;
+
+  border-radius: 5px;
+  border: 0;
+  color: rgb(255, 255, 255);
+  width: 195px;
+  height: 40px;
+  padding: 8px;
+}
+.leftAlign {
+  display: flex;
+  height: 30px;
+}
+.topAbsRed{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    font-size:x-small;
+    background: rgb(252, 116, 116);
+    color: white;
+    padding: 2px;
+    width: 100px;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.topAbsGreen{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    font-size:x-small;
+    background: rgb(63, 199, 118);
+    color: white;
+    padding: 2px;
+    width: 100px;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.leftAbs{
+    position: absolute;
+    
+    left: 0;
+   
+}
+.rightAbs{
+    position: absolute;
+    
+    right: 10px;
+   
+}
+.textXsm{
+font-size: smaller;
+
+}
+.textMd{
+font-size: large;
+}
+.faded{
+    color: rgb(130, 130, 130);
+}
+.textRight{
+    text-align: right;
+}
